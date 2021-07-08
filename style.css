@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(fonts/poppins.ttf);
+  src: url(fonts/Poppins-Medium.ttf);
+}
+body {
+  font-family: poppins;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #0475ba;
+  color: white;
+}
+header h1 {
+  padding: 10px;
+}
+header ul {
+  padding: 10px;
+  margin: top 10px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+header ul li {
+  color: white;
+  list-style: none;
+  display: inline-flex;
+  margin: 5px;
+}
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+.profile {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* height: 12rem; */
+  margin: auto 30%;
+  padding: 30px 0;
+}
+.title {
+  margin-top: 20px;
+  display: block;
+  justify-content: center;
+  background-color: white;
+}
+.name {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.projet {
+  text-align: center;
+  color: #0475ba;
+  font-size: 1.5rem;
+  /* padding:10px; */
+}
+.img {
+  display: inline-block;
+  width: 200px;
+  /* margin: 20px; */
+}
+img {
+  width: 90%;
+  height: 80%;
+  margin: 20px;
+  clear: both;
+  border-radius: 50%;
+}
+.presentation {
+  display: flex;
+  flex-direction: column;
+  background-color: #0475ba;
+  padding-bottom: 30px;
+  /* height: 15rem; */
+}
+.presentation div {
+  margin-left: 23%;
+  margin-right: 23%;
+}
+.presentation h1 {
+  padding: 15px;
+  color: white;
+}
+.presentation ul {
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+  padding: 4px;
+}
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  /* height: 23rem; */
+}
+.experiences-list {
+  margin-left: 23%;
+  margin-right: 23%;
+  /* width: 100%; */
+}
+.experiences h1 {
+  padding: 15px 8px;
+  margin-left: 23%;
+  margin-right: 23%;
+  color: #0475ba;
+}
+.experiences-list div {
+  padding: 8px;
+}
+.list-experiences {
+  margin-left: 340px;
+  margin-right: 40px;
+}
+.list-experiences p {
+  display: inline-flex;
+  padding: 10px;
+}
+
+.bold {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.formations {
+  color: white;
+  background-color: #0475ba;
+  padding-bottom: 30px;
+  /* height: 12rem; */
+}
+.formation {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24%;
+  margin-right: 24%;
+}
+.formation h1 {
+  padding: 20px 0;
+  margin-bottom: 15px;
+}
+.formation div {
+  display: flex;
+  justify-content: space-between;
+}
+.year {
+  float: right;
+}
+.passions {
+  padding: 30px;
+}
+.passion {
+  margin: 0 24%;
+}
+.passions h1 {
+  color: #0475ba;
+  padding: 15px 0;
+}
+.passions p {
+  padding: 15px 0;
+}
+footer {
+  padding-top: 50px;
+  padding-left: 20px;
+  background-color: #0475ba;
+}
+footer table {
+  padding: 0 20px 30px;
+  margin: 0 24%;
+  width: 50%;
+  /* border: 1px solid black; */
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 880px) {
+  .profile {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 20rem;
+  }
+  .name,
+  .projet {
+    font-size: 1rem;
+  }
+  .presentation div {
+    margin: 5px;
+  }
+  .experiences-list {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* width: 100%; */
+  }
+  .bold {
+    font-size: 15px;
+  }
+}
+/* @media (max-width: 600px) {
+  .profil {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+    height: 20rem;
+    width: 100%;
+  }
+  .name,
+  .projet {
+    font-size: 1rem;
+  }
+} */
